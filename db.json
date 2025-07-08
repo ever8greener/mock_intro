@@ -1,278 +1,58 @@
 {
-    "status": 200,
-    "code": "common.success.00001",
-    "message": "success",
-    "data": {
-      "version": "2.1.1",
-      "coinList": [
-        {
-          "coinType": "C0050",
-          "coinClassCode": "C",
-          "coinSymbol": "P",
-          "coinName": "포인트",
-          "coinNameEn": "P",
-          "decimalDigits": 8,
-          "canDeposit": false,
-          "canWithdrawal": false,
-          "displayInOut": false,
-          "hasSecondAddr": false,
-          "secondAddrName": "",
-          "secondAddrNameEn": "",
-          "siseCrncCd": "-",
-          "isLive": false
-        },
-        {
-          "coinType": "C0070",
-          "coinClassCode": "C",
-          "coinSymbol": "BM",
-          "coinName": "빗썸 마일리지",
-          "coinNameEn": "Bithumb Mileage",
-          "decimalDigits": 8,
-          "canDeposit": false,
-          "canWithdrawal": false,
-          "displayInOut": false,
-          "hasSecondAddr": false,
-          "secondAddrName": "",
-          "secondAddrNameEn": "",
-          "siseCrncCd": "-",
-          "isLive": false
-        }
-      ],
-      "marketList": [
-        {
-          "crncCd": "C0100",
-          "marketSymbol": "KRW",
-          "minFeeAmt": "0.01",
-          "marketSiseOrd": "1",
-          "unitPrice": {
-            "0": "1000",
-            "1": "0.0001",
-            "10": "0.001",
-            "100": "0.01",
-            "1000": "1",
-            "5000": "1",
-            "10000": "5",
-            "50000": "10",
-            "100000": "50",
-            "500000": "100",
-            "1000000": "500"
-          },
-          "isOpened": true
-        },
-        {
-          "crncCd": "C0101",
-          "marketSymbol": "BTC",
-          "minFeeAmt": "0.0000000001",
-          "marketSiseOrd": "3",
-          "unitPrice": {
-            "0": "0.00000001"
-          },
-          "isOpened": true
-        }
-      ],
-      "coinsOnMarketList": {
-        "C0100": [
-          {
-            "crncCd": "C0100",
-            "coinType": "C0101",
-            "canTrade": true,
-            "hasEvent": false,
-            "topFixedNew": false,
-            "coinSymbol": "BTC",
-            "coinName": "비트코인",
-            "coinNameEn": "Bitcoin",
-            "closeExceptedDate": "0",
-            "sellOpenDate": "1900-01-01 00:00:00",
-            "buyOpenDate": "1900-01-01 00:00:00",
-            "listedLowerLimitRate": "10",
-            "listedUpperLimitRate": "100",
-            "listedPrice": "0",
-            "categoryInfo": [
-              {
-                "vrtlAstCtgrCd": "001",
-                "sortOrd": 1
-              },
-              {
-                "vrtlAstCtgrCd": "105",
-                "sortOrd": 0
-              }
-            ],
-            "quoteSection": "1|10|100|1000|5000|10000|50000|100000|500000|1000000",
-            "quotationUnit": "0.0001|0.001|0.01|1|1|5|10|50|100|500|1000",
-            "orderQtyUnit": "0.00000001",
-            "marketMinOrderValue": "5000",
-            "marketMaxOrderValue": "1000000000",
-            "limitMinOrderValue": "5000",
-            "limitMaxOrderValue": "5000000000",
-            "orderAmtDecimalPlace": "0",
-            "orderAmtDecimalPlaceDigits": 0,
-            "disClosure": false,
-            "isListedNew": false,
-            "isStaking": false,
-            "isInvestment": false,
-            "isKakaoPixel": true
-          },
-          {
-            "crncCd": "C0100",
-            "coinType": "C0102",
-            "canTrade": true,
-            "hasEvent": false,
-            "topFixedNew": false,
-            "coinSymbol": "ETH",
-            "coinName": "이더리움",
-            "coinNameEn": "Ethereum",
-            "closeExceptedDate": "0",
-            "sellOpenDate": "1900-01-01 00:00:00",
-            "buyOpenDate": "1900-01-01 00:00:00",
-            "listedLowerLimitRate": "10",
-            "listedUpperLimitRate": "100",
-            "listedPrice": "0",
-            "categoryInfo": [
-              {
-                "vrtlAstCtgrCd": "001",
-                "sortOrd": 2
-              },
-              {
-                "vrtlAstCtgrCd": "105",
-                "sortOrd": 1
-              }
-            ],
-            "quoteSection": "1|10|100|1000|5000|10000|50000|100000|500000|1000000",
-            "quotationUnit": "0.0001|0.001|0.01|1|1|5|10|50|100|500|1000",
-            "orderQtyUnit": "0.00000001",
-            "marketMinOrderValue": "5000",
-            "marketMaxOrderValue": "1000000000",
-            "limitMinOrderValue": "5000",
-            "limitMaxOrderValue": "5000000000",
-            "orderAmtDecimalPlace": "0",
-            "orderAmtDecimalPlaceDigits": 0,
-            "disClosure": false,
-            "isListedNew": false,
-            "isStaking": true,
-            "isInvestment": false,
-            "isKakaoPixel": true
-          }
-        ],
-        "C0101": [
-          {
-            "crncCd": "C0101",
-            "coinType": "C0102",
-            "canTrade": true,
-            "hasEvent": true,
-            "topFixedNew": false,
-            "coinSymbol": "ETH",
-            "coinName": "이더리움",
-            "coinNameEn": "Ethereum",
-            "closeExceptedDate": "0",
-            "sellOpenDate": "1900-01-01 00:00:00",
-            "buyOpenDate": "1900-01-01 00:00:00",
-            "listedLowerLimitRate": "10",
-            "listedUpperLimitRate": "100",
-            "listedPrice": "0.03236715",
-            "categoryInfo": [
-              {
-                "vrtlAstCtgrCd": "001",
-                "sortOrd": 1
-              },
-              {
-                "vrtlAstCtgrCd": "105",
-                "sortOrd": 0
-              }
-            ],
-            "quoteSection": "0",
-            "quotationUnit": "0.00000001",
-            "orderQtyUnit": "0.00000001",
-            "marketMinOrderValue": "0.0005",
-            "marketMaxOrderValue": "5",
-            "limitMinOrderValue": "0.0002",
-            "limitMaxOrderValue": "10",
-            "orderAmtDecimalPlace": "8",
-            "orderAmtDecimalPlaceDigits": 8,
-            "disClosure": false,
-            "isListedNew": false,
-            "isStaking": true,
-            "isInvestment": false,
-            "isKakaoPixel": false
-          },
-          {
-            "crncCd": "C0101",
-            "coinType": "C0106",
-            "canTrade": true,
-            "hasEvent": true,
-            "topFixedNew": false,
-            "coinSymbol": "XRP",
-            "coinName": "엑스알피 [리플]",
-            "coinNameEn": "XRP",
-            "closeExceptedDate": "0",
-            "sellOpenDate": "1900-01-01 00:00:00",
-            "buyOpenDate": "1900-01-01 00:00:00",
-            "listedLowerLimitRate": "10",
-            "listedUpperLimitRate": "100",
-            "listedPrice": "0.00000785",
-            "categoryInfo": [
-              {
-                "vrtlAstCtgrCd": "001",
-                "sortOrd": 2
-              },
-              {
-                "vrtlAstCtgrCd": "105",
-                "sortOrd": 1
-              }
-            ],
-            "quoteSection": "0",
-            "quotationUnit": "0.00000001",
-            "orderQtyUnit": "0.00000001",
-            "marketMinOrderValue": "0.0005",
-            "marketMaxOrderValue": "5",
-            "limitMinOrderValue": "0.0002",
-            "limitMaxOrderValue": "10",
-            "orderAmtDecimalPlace": "8",
-            "orderAmtDecimalPlaceDigits": 8,
-            "disClosure": false,
-            "isListedNew": false,
-            "isStaking": false,
-            "isInvestment": false,
-            "isKakaoPixel": false
-          }
-        ],
-        "C0866": [
-          {
-            "crncCd": "C0866",
-            "coinType": "C1020",
-            "canTrade": true,
-            "hasEvent": false,
-            "topFixedNew": true,
-            "coinSymbol": "AMP",
-            "coinName": "앰프",
-            "coinNameEn": "Amp",
-            "closeExceptedDate": "0",
-            "sellOpenDate": "2025-06-17 22:30:00",
-            "buyOpenDate": "2025-06-17 22:35:00",
-            "listedLowerLimitRate": "10",
-            "listedUpperLimitRate": "100",
-            "listedPrice": "0.003973",
-            "categoryInfo": [
-              {
-                "vrtlAstCtgrCd": "003",
-                "sortOrd": 12
-              }
-            ],
-            "quoteSection": "0",
-            "quotationUnit": "0.000001",
-            "orderQtyUnit": "1",
-            "marketMinOrderValue": "5",
-            "marketMaxOrderValue": "40",
-            "limitMinOrderValue": "5",
-            "limitMaxOrderValue": "40",
-            "orderAmtDecimalPlace": "6",
-            "orderAmtDecimalPlaceDigits": 6,
-            "disClosure": false,
-            "isListedNew": true,
-            "isStaking": false,
-            "isInvestment": false,
-            "isKakaoPixel": false
-          }
-        ]
+  "status": 200,
+  "code": "common.success.00001",
+  "message": "success",
+  "data": {
+    "version": "2.1.1",
+    "coinList": [
+      {
+        "coinType": "C0050",
+        "coinClassCode": "C",
+        "coinSymbol": "P",
+        "coinName": "포인트",
+        "coinNameEn": "P",
+        "decimalDigits": 8,
+        "canDeposit": false,
+        "canWithdrawal": false,
+        "displayInOut": false,
+        "hasSecondAddr": false,
+        "secondAddrName": "",
+        "secondAddrNameEn": "",
+        "siseCrncCd": "-",
+        "isLive": false
       }
-    }
+    ],
+    "marketList": [
+      {
+        "crncCd": "C0100",
+        "marketSymbol": "KRW",
+        "minFeeAmt": "0.01",
+        "marketSiseOrd": "1",
+        "unitPrice": {
+          "0": "1000",
+          "1": "0.0001",
+          "10": "0.001",
+          "100": "0.01",
+          "1000": "1",
+          "5000": "1",
+          "10000": "5",
+          "50000": "10",
+          "100000": "50",
+          "500000": "100",
+          "1000000": "500"
+        },
+        "isOpened": true
+      },
+      {
+        "crncCd": "C0101",
+        "marketSymbol": "BTC",
+        "minFeeAmt": "0.0000000001",
+        "marketSiseOrd": "3",
+        "unitPrice": {
+          "0": "0.00000001"
+        },
+        "isOpened": true
+      }
+    ]
   }
+}
